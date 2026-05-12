@@ -221,62 +221,47 @@
        
 
     <div class="section">
-      <div class="section-title">SOP K3L</div>
-      <a class="link-card" 
-href="https://drive.google.com/drive/folders/SOP K3L_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#129514;</div>
-        <div class="link-info">
-          <div class="link-name">Laboratorium Kimia</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card"
-href="https://drive.google.com/drive/folders/SOP K3L_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#129522;</div>
-        <div class="link-info">
-          <div class="link-name">Laboratorium Fisika</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card"  
-href="https://drive.google.com/drive/folders/SOP K3L_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#127981;</div>
-        <div class="link-info">
-          <div class="link-name">Laboratorium Manufaktur</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card" 
-href="https://drive.google.com/drive/folders/SOP K3L_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#129658;</div>
-        <div class="link-info">
-          <div class="link-name">Laboratorium Teknik Biomedik</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card" 
-href="https://drive.google.com/drive/folders/SOP K3L_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#127807;</div>
-        <div class="link-info">
-          <div class="link-name">Laboratorium Teknik Bioproses</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card" 
-href="https://drive.google.com/drive/folders/SOP K3L_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#128187;</div>
-        <div class="link-info">
-          <div class="link-name">Laboratorium Komputer</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-    </div>
+  <div class="section-title">SOP K3L</div>
+
+  <select id="labDropdown" onchange="goToLab()" class="dropdown-lab">
+    <option value="">-- Pilih Laboratorium --</option>
+
+    <option value="https://drive.google.com/drive/folders/LINK_KIMIA">
+      Laboratorium Kimia
+    </option>
+
+    <option value="https://drive.google.com/drive/folders/LINK_FISIKA">
+      Laboratorium Fisika
+    </option>
+
+    <option value="https://drive.google.com/drive/folders/LINK_MANUFAKTUR">
+      Laboratorium Manufaktur
+    </option>
+
+    <option value="https://drive.google.com/drive/folders/LINK_BIOMEDIK">
+      Laboratorium Teknik Biomedik
+    </option>
+
+    <option value="https://drive.google.com/drive/folders/LINK_BIOPROSES">
+      Laboratorium Teknik Bioproses
+    </option>
+
+    <option value="https://drive.google.com/drive/folders/LINK_KOMPUTER">
+      Laboratorium Komputer
+    </option>
+  </select>
+</div>
+
+<script>
+function goToLab() {
+  const dropdown = document.getElementById("labDropdown");
+  const url = dropdown.value;
+
+  if (url) {
+    window.open(url, "_blank");
+  }
+}
+</script>
 
 
 <div class="section">
