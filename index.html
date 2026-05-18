@@ -153,71 +153,289 @@
       <p class="subtitle">Integrated Safety Information System for i-Cell</p>
     </header>
 
-    <div class="section">
-      <div class="section-title">ABOUT I-CELL</div>
-      <a class="link-card" href="https://www.youtube.com/watch?v=q53dn_xxsQQ" target="_blank" rel="noopener">
-        <div class="link-icon white">&#127970;</div>
-        <div class="link-info">
-          <div class="link-name">Profil Gedung I-Cell</div>
-          <div class="link-desc">Visi, Misi, Sarana, dan Prasarana Gedung I-Cell</div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card" href="https://drive.google.com/drive/folders/YOUR_SAFETY_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#128240;</div>
-        <div class="link-info">
-          <div class="link-name">I-Cell K3L News</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
+   <!-- SECTION ABOUT I-CELL -->
+<div class="section">
+
+  <div class="section-title">
+    ABOUT I-CELL
+  </div>
+
+  <div class="sop-container">
+
+    <!-- HEADER -->
+    <div class="sop-header">
+
+      <div class="shield-icon">🏢</div>
+
+      <div>
+        <h2>Informasi Gedung I-CELL</h2>
+        <p>
+          Profil, berita, dan informasi Gedung I-CELL
+        </p>
+      </div>
+
     </div>
 
-    <div class="section">
-      <div class="section-title">Emergency Checklist</div>
-      <a class="link-card" href="https://drive.google.com/drive/folders/YOUR_MAINTENANCE_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#129519;</div>
-        <div class="link-info">
-          <div class="link-name">APAR Checklist</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
-      <a class="link-card" href="https://drive.google.com/drive/folders/YOUR_ACCESS_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#128680;</div>
-        <div class="link-info">
-          <div class="link-name">Alarm Api Checklist</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
+    <!-- DROPDOWN BUTTON -->
+    <div class="dropdown-box"
+      onclick="toggleDropdown('dropdownContentAbout','dropdownArrowAbout')">
+
+      <div class="dropdown-left">
+        <span>Pilih Informasi</span>
+      </div>
+
+      <div class="dropdown-arrow" id="dropdownArrowAbout">
+        ▼
+      </div>
+
     </div>
+
+    <!-- DROPDOWN CONTENT -->
+    <div class="dropdown-content" id="dropdownContentAbout">
+
+      <!-- ITEM -->
+      <a class="lab-card"
+        href="https://www.youtube.com/watch?v=q53dn_xxsQQ"
+        target="_blank">
+
+        <div class="lab-icon">🎥</div>
+
+        <div class="lab-info">
+
+          <div class="lab-title">
+            Profil Gedung I-CELL
+          </div>
+
+          <div class="lab-desc">
+            Visi, misi, sarana, dan prasarana Gedung I-CELL
+          </div>
+
+        </div>
+
+        <div class="lab-arrow">›</div>
+
+      </a>
+
+      <!-- ITEM -->
+      <a class="lab-card"
+        href="https://drive.google.com/drive/folders/YOUR_SAFETY_FOLDER_ID"
+        target="_blank">
+
+        <div class="lab-icon">📰</div>
+
+        <div class="lab-info">
+
+          <div class="lab-title">
+            I-CELL K3L News
+          </div>
+
+          <div class="lab-desc">
+            Berita dan informasi terbaru terkait K3L Gedung I-CELL
+          </div>
+
+        </div>
+
+        <div class="lab-arrow">›</div>
+
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+    <!-- SECTION CHECKLIST -->
+<div class="section">
+
+  <div class="section-title">
+    EMERGENCY CHECKLIST
+  </div>
+
+  <div class="sop-container">
+
+    <!-- HEADER -->
+    <div class="sop-header">
+
+      <div class="shield-icon">✅</div>
+
+      <div>
+        <h2>Daftar Checklist K3L Gedung I-Cell</h2>
+        <p>
+          Monitoring dan pemeriksaan rutin keselamatan, kesehatan kerja, dan lingkungan I-CELL
+        </p>
+      </div>
+
+    </div>
+
+    <!-- DROPDOWN BUTTON -->
+    <div class="dropdown-box"
+      onclick="toggleDropdown('dropdownContentPermit','dropdownArrowPermit')">
+
+      <div class="dropdown-left">
+        <span>Pilih Dokumen Checklist</span>
+      </div>
+
+      <div class="dropdown-arrow" id="dropdownArrowPermit">
+        ▼
+      </div>
+
+    </div>
+
+    <!-- DROPDOWN CONTENT -->
+    <div class="dropdown-content" id="dropdownContentPermit">
+
+      <!-- ITEM -->
+      <a class="lab-card"
+        href="https://drive.google.com/"
+        target="_blank">
+
+        <div class="lab-icon">🧯</div>
+
+        <div class="lab-info">
+
+          <div class="lab-title">
+            Checklist APAR
+          </div>
+
+          <div class="lab-desc">
+            Dokumen inspeksi dan sertifikasi APAR
+          </div>
+
+        </div>
+
+        <div class="lab-arrow">›</div>
+
+      </a>
+
+      <!-- ITEM -->
+      <a class="lab-card"
+        href="https://drive.google.com/"
+        target="_blank">
+
+        <div class="lab-icon">🚨</div>
+
+        <div class="lab-info">
+
+          <div class="lab-title">
+            Checklist Fire Alarm
+          </div>
+
+          <div class="lab-desc">
+            Dokumen inspeksi Alarm Kebakaran
+          </div>
+
+        </div>
+
+        <div class="lab-arrow">›</div>
+
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
        
 
-    <div class="section">
-      <div class="section-title">Perizinan K3L</div>
-      <a class="link-card" href="https://drive.google.com/drive/folders/YOUR_TENANT_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#128196;</div>
-        <div class="link-info">
-          <div class="link-name">Form Perizinan K3L Gedung</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
+    <!-- SECTION Perizinan -->
+<div class="section">
+
+  <div class="section-title">
+    Perizinan K3L
+  </div>
+
+  <div class="sop-container">
+
+    <!-- HEADER -->
+    <div class="sop-header">
+
+      <div class="shield-icon">🏬</div>
+
+      <div>
+        <h2>Perizinan K3L Gedung I-Cell</h2>
+        <p>
+          Dokumentasi legal dan perizinan operasional K3L Gedung I-CELL
+        </p>
+      </div>
+
     </div>
+
+    <!-- CARD -->
+    <a class="lab-card"
+      href="https://drive.google.com/"
+      target="_blank">
+
+      <div class="lab-icon">📄</div>
+
+      <div class="lab-info">
+
+        <div class="lab-title">
+          Formulir Perizinan K3L Gedung I-Cell
+        </div>
+
+        <div class="lab-desc">
+          Klik untuk membuka formulir perizinan gedung
+        </div>
+
+      </div>
+
+      <div class="lab-arrow">›</div>
+
+    </a>
+
+  </div>
+</div>
+
        
 
-    <div class="section">
-      <div class="section-title">Pelaporan Insiden K3L</div>
-      <a class="link-card" href="https://drive.google.com/drive/folders/YOUR_SUSTAINABILITY_FOLDER_ID" target="_blank" rel="noopener">
-        <div class="link-icon white">&#128247;</div>
-        <div class="link-info">
-          <div class="link-name">Form Pelaporan Insiden K3L</div>
-          <div class="link-desc"></div>
-        </div>
-        <div class="link-arrow">&#8250;</div>
-      </a>
+    <!-- SECTION PELAPORAN -->
+<div class="section">
+
+  <div class="section-title">
+    Pelaporan Insiden K3L
+  </div>
+
+  <div class="sop-container">
+
+    <!-- HEADER -->
+    <div class="sop-header">
+
+      <div class="shield-icon">&#128247;</div>
+
+      <div>
+        <h2>Form Pelaporan Insiden K3L</h2>
+        <p>
+          Identifikasi dan Laporkan Potensi Bahaya
+        </p>
+      </div>
+
     </div>
+
+    <!-- CARD -->
+    <a class="lab-card"
+      href="https://drive.google.com/"
+      target="_blank">
+
+      <div class="lab-icon">📄</div>
+
+      <div class="lab-info">
+
+        <div class="lab-title">
+          Formulir Pelaporan Insiden K3L
+        </div>
+
+        <div class="lab-desc">
+          Klik untuk membuka formulir pelaporan
+        </div>
+
+      </div>
+
+      <div class="lab-arrow">›</div>
+
+    </a>
+
+  </div>
+</div>
        
    <div class="section">
       <div class="section-title">Panduan K3L Laboratorium I-CELL</div>
@@ -354,7 +572,7 @@
 
     <div>
       <h2>Hazard Identification, Assessment of Risk, and Opportunities (HIARO)</h2>
-      <p>Pilih laboratorium untuk melihat dokumen HIARO</p>
+      <p>Pilih laboratorium untuk melihat SOP K3L</p>
     </div>
   </div>
 
@@ -1019,3 +1237,4 @@ function toggleDropdown(contentId, arrowId){
   </div>
 </body>
 </html>
+
